@@ -1,0 +1,469 @@
+
+* {
+    font-family: "Lato" Helvetica, Arial, sans-serif;
+}
+
+html {
+    position: relative;
+
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 40px; /* FOOT
+
+      ER OFFSET */
+
+    background: url(../img/bg_sun.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background-color: #f5f5f5;
+}
+a,
+a:visited {
+    text-decoration: none;
+    color: #f00;
+}
+a:hover {
+    text-decoration: none;
+    color: #16a085
+}
+a.sad,
+a.sad:visited {
+    text-decoration: none;
+    color: #000;
+}
+a.sad:hover {
+    text-decoration: underline;
+    color: #999;
+}
+
+/* SPIDERWEBS WRAPS THE MEAT OF THE SITE AND HOLDS IT TOGETHER */
+
+.spiderwebs {
+    position: relative;
+
+    display: block;
+    width: 960px;
+    min-height: 2850px;
+    height:2850px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.inner-webbing {
+    /* border:1px solid red; */
+    margin:0;
+    padding:0;
+    text-align:center;
+    display:inline-block;
+    position:relative;
+    width:100%;
+    height:100%;
+}
+
+/*  YELLOW ROBOT  */
+
+#yrobo {
+    position: absolute;
+    z-index: 900;
+    display: inline-block;
+    margin: 45px 0 0 515px;
+    opacity: .35;
+    /*z-index: -1;*/
+}
+
+#yrobo:hover {
+    z-index: 1000;
+
+    opacity: .85;
+}
+
+#amptdesign-logo {
+    position: relative;
+    top: 170px;
+    z-index: 1999;
+
+    display: block;
+    width: 670px;
+    margin: 0 auto;
+}
+
+/* 
+
+  CUTTING - EDGE WEB DESIGN 
+
+*/
+
+#subheader {
+    position: relative;
+    z-index: 1001;
+    display: block;
+    padding: 0 0 0 10px;
+    margin: 18.5% 0 3% 46.5%;
+    font-family: "Lato" Helvetica, Arial, sans-serif;
+    font-size: 22.48px;
+    font-weight: 300;
+    white-space: nowrap;
+    letter-spacing: 10px;
+    color: #f00;
+    color: white;
+    background-color: #475662;
+    text-align: center;
+}
+
+/* UNIVERSAL */
+
+.sect_header {
+    display: block;
+    margin: 0 0 16px 0;
+
+    font-size: 14pt;
+    font-weight: 300;
+
+    text-align: center;
+    letter-spacing: 10px;
+
+    color: #fff;
+    /*background-color: #000;*/
+    background-color: #475662;
+}
+
+/* OUR SERVICES */
+
+.our-services {
+    position: relative;
+    display: inline-block;
+
+    width: 350px;
+    height: 100%;
+    margin: 5% 0 0 60px;
+    padding: 0;
+
+    font-size: 13pt;
+
+    text-align: center;
+    /*word-spacing: -1px;*/
+    letter-spacing: normal;
+    text-transform: uppercase;
+
+    background-color: rgba(255,255,255,.3);
+
+    /* border:1px dotted green; */
+    /* clear: both; */
+    vertical-align: top;
+}
+
+/* 
+
+  << ANIMATION >>
+
+  APPEARS WHEN "GET THE FACTS" IS CLICKED 
+
+*/
+.our-services-2,
+.our-services-3 {
+    display: none;
+    width: 340px;
+    height: 480px;
+
+    font-size: 11pt;
+
+    letter-spacing: normal;
+    /*word-spacing: -1px;*/
+    text-transform: uppercase;
+}
+.our-services-2 {
+    position: absolute;
+    margin: 5% 58px 0 94px;
+}
+.our-services-3 {
+    position: relative;
+}
+.web2,
+.web3,
+.web4,
+#win,
+#maybe-later { display: none; }
+#win {
+    padding: 20px 5px;
+    margin: 2px;
+    font-size: 1em;
+    font-weight: 700;
+    color: red;
+    border: 1px solid red;
+    border-radius: 2px;
+    /*background-color: #338faf;*/
+    z-index: 1;
+}
+#win:hover {
+    text-decoration: none;
+    /*border: 1px dashed red;*/
+    background-color: red;
+    color:#fff;
+    /*box-shadow:0 0 3px 3px rgba(255,255,204,.6); */
+}
+.team-big {
+    padding: 20px 0 14px 0;
+}
+.team {
+    margin: 32px 5px -11px 5px;
+}
+.web1 {
+    border-radius: 4px;
+    background-color: rgba(255,255,255,.2);
+}
+.web2 {
+    border-radius: 4px;
+    background-color: rgba(255,255,255,.2);
+}
+.web3 {
+    border-radius: 4px;
+    background-color: rgba(255,255,255,.2);
+}
+.web4 {
+    border-radius: 4px;
+    background-color: rgba(255,255,255,.3);
+    z-index: 100;
+}
+/* PREVENTS ANIMATION FLICKERING */
+/*#color-circle { -webkit-backface-visibility: hidden; }*/
+.color-circle {
+    position: absolute;
+    top: 477px;
+    z-index: -2;
+    display: inline-block;
+    width: 600px;
+    height: 600px;
+    padding: 0;
+    margin: -97px 0 0 -193px;
+    opacity: 0;
+    background-image: url("../img/colorful-circle.png");
+}
+.hottie-rocket {
+    position: absolute;
+    top: 25px;
+    right: -3000px;
+    z-index: -1;
+    display: block;
+    width: 792px;
+    height: 612px;
+    padding: 0;
+    margin: 0;
+    opacity: 0;
+    background-image: url("../img/hottie-rocket.png");
+}
+/* OUR TEAM */
+.our-team p {
+    word-spacing: normal;
+}
+.team:hover {
+    box-shadow: 0 0 55px 5px #fc6;
+}
+.team-big,
+#after-surprise {
+    display: none;
+}
+.our-team {
+    position: relative;
+    display: inline-block;
+
+    width: 380px;
+    height: 100%;
+    margin: 5% 0 0 3%;
+    padding: 0;
+
+    font-size: 11pt;
+    letter-spacing: normal;
+    word-spacing: -1px;
+    text-transform: uppercase;
+    background-color: rgba(255,255,255,.3);
+    /* border: 1px dotted blue; */
+    /* clear: both; */
+    vertical-align: top;
+}
+.how-we-can-help,
+.how-we-can-help-2,
+.how-we-can-help-3 {
+    position: relative;
+    display: none;
+    width: 378px;
+    height: auto;
+    margin: 0;
+    letter-spacing: normal;
+    word-spacing: -1px;
+    text-transform: uppercase;
+}
+.how-we-can-help {
+    height: 290px; /*border: dashed yellow 1px;*/
+}
+.cthumb {
+    width: 90px;
+    height: 90px;
+    padding: 1px;
+    margin: 1px 1px 8px 4px;
+    border: 1px solid #333;
+    box-shadow: 2px 2px 3px #888;
+}
+.cthumb:hover {
+    border: 1px solid #f00;
+}
+.mobi {
+    padding: -9px -9px -7px -76px;
+    margin: -12px 3px 1px 3px;
+    border: 1px dotted #131300;
+    border-radius: 17px;
+}
+.test {
+    width: 90%;
+    margin: 0 17px;
+    text-align: justify;
+}
+#contact-us {
+    z-index: 2000;
+    display: none;
+    width: 531px;
+    height: 787px;
+    padding: 311px 0 0 113px;
+    margin-top: 0;
+    margin-left: 182px;
+
+    opacity: 1.0;
+    background: url("../img/contact-rocket.png") no-repeat;
+}
+#contact-us input,
+textarea {
+    display: block;
+    width: 85%;
+    padding: 3px 0 3px 8px;
+    margin: 7px 0;
+    color: #aad26a;
+    border: 1px dashed #000;
+}
+#contact-us textarea {
+    height: 200px;
+    color: #aad26a;
+}
+.submit {
+    width: 43%;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    border: none;
+    background-color: #f06;
+}
+.cancel {
+    width: 42%;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    border: none;
+    background-color: #f93;
+}
+#maybe-later {
+    display: none;
+    padding: 19px 4px;
+    border: 1px solid #000;
+    background-color: rgba(255,255,255,0.2);
+    margin: 2px;
+    margin-top: -15px;
+    z-index: 1;
+    text-decoration: none;
+}
+#maybe-later:hover {
+    background-color: black;
+    color:white;
+}
+#footer {
+    height: 40px;
+    border-top: dashed 1px #ccc;
+    background-color: #f5f5f5;
+}
+#footer p {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.a-line {
+    width: 99%;
+    margin-top: 10%;
+    border-bottom: 1px solid red;
+}
+.a-line2 {
+    position: absolute;
+    width: 1px;
+    height: 20px;
+    margin-top: 9%;
+    border-left: 1px solid red;
+}
+.a-line3 {
+    position: absolute;
+    width: 1px;
+    height: 20px;
+    margin-top: 9%;
+    margin-left: 99%;
+    border-left: 1px solid red;
+}
+.a-line4 {
+    position: absolute;
+    width: 1px;
+    height: 20px;
+    margin-top: 9%;
+    margin-left: 99%;
+    /*border-left: 1px solid red;*/
+}
+.border {
+    border: 1px solid green;
+}
+.carousel-indicators {
+    bottom: -40px;
+    color: #6cf;
+    /*background-color: #000;*/
+    /* left: 60px; */
+}
+.carousel-inner {
+    z-index: 999;
+    margin-bottom: 60px;
+    text-align: right;
+}
+.carousel-indicators li {
+    border: 1px solid #099;
+    background-color: transparent;
+}
+.carousel-indicators .active {
+    background-color: #099;
+}
+.bold {font-weight: 700;}
+.royalblue {background-color: royalblue;}
+
+ a.btn:link, a.btn:visited {
+    border:1px solid red;
+    margin-top:-15px;
+    padding:10px;
+    margin-left: 2px;
+    border-radius: 0;
+    color:red;
+}
+
+a.btn:hover {
+    border:1px solid #16a085;
+    color:#16a085;
+}
+
+#clients {
+    margin: 0;
+    padding: 5px;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+}
+
+.carousel-indicators {
+    left: 52% !important;
+}

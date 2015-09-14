@@ -1,0 +1,144 @@
+
+
+.my-flip {
+	-webkit-animation: myflip 2s ease-in-out;
+	-moz-animation: myflip 2s ease-in-out;
+	-ms-animation: myflip 2s ease-in-out;
+	-o-animation: myflip 2s ease-in-out;
+	animation: myflip 2s ease-in-out;
+	opacity: 1!important;
+}
+
+/* FLIP RIGHT BOUNCE */
+@-webkit-keyframes myflip {
+	0% {
+		opacity: 0; -webkit-transform:rotateY(-70deg);
+	}50%{
+		opacity: 1; -webkit-transform:rotateY(5deg);
+	}80% { -webkit-transform:rotateY(-20deg);}
+	100%{-webkit-transform:rotateY(0deg);}
+}@-moz-keyframes myflip {
+	0% {
+		opacity: 0; -moz-transform:rotateY(-70deg);
+	}50%{
+		opacity: 1; -moz-transform:rotateY(5deg);
+	}80% { -moz-transform:rotateY(-20deg);}
+	100%{-moz-transform:rotateY(0deg);}
+}@-ms-keyframes myflip {
+	0% {
+		opacity: 0; -ms-transform:rotateY(-70deg);
+	}50%{
+		opacity: 1; -ms-transform:rotateY(5deg);
+	}80% { -ms-transform:rotateY(-20deg);}
+	100%{-ms-transform:rotateY(0deg);}
+}@-o-keyframes myflip {
+	0% {
+		opacity: 0; -o-transform:rotateY(-70deg);
+	}50%{
+		opacity: 1; -o-transform:rotateY(5deg);
+	}80% { -o-transform:rotateY(-20deg);}
+	100%{-o-transform:rotateY(0deg);}
+}@keyframes myflip {
+	0% {
+		opacity: 0;transform:rotateY(-70deg);
+	}50%{
+		opacity: 1;transform:rotateY(5deg);
+	}80% {transform:rotateY(-20deg);}
+	100% {transform:rotateY(0deg);}
+}
+
+.my-flip2 {
+	-webkit-animation: myflip 1s ease-in-out;
+	-moz-animation: myflip 1s ease-in-out;
+	-ms-animation: myflip 1s ease-in-out;
+	-o-animation: myflip 1s ease-in-out;
+	animation: myflip 1s ease-in-out;
+	opacity: 1!important;
+}
+
+/* FLIP RIGHT BOUNCE */
+@-webkit-keyframes myflip2 {
+	0% {
+		opacity: 0; -webkit-transform:rotateY(-70deg);
+	}50%{
+		opacity: 1; -webkit-transform:rotateY(5deg);
+	}80% { -webkit-transform:rotateY(-20deg);}
+	100%{-webkit-transform:rotateY(0deg);}
+}@-moz-keyframes myflip2 {
+	0% {
+		opacity: 0; -moz-transform:rotateY(-70deg);
+	}50%{
+		opacity: 1; -moz-transform:rotateY(5deg);
+	}80% { -moz-transform:rotateY(-20deg);}
+	100%{-moz-transform:rotateY(0deg);}
+}@-ms-keyframes myflip2 {
+	0% {
+		opacity: 0; -ms-transform:rotateY(-70deg);
+	}50%{
+		opacity: 1; -ms-transform:rotateY(5deg);
+	}80% { -ms-transform:rotateY(-20deg);}
+	100%{-ms-transform:rotateY(0deg);}
+}@-o-keyframes myflip2 {
+	0% {
+		opacity: 0; -o-transform:rotateY(-70deg);
+	}50%{
+		opacity: 1; -o-transform:rotateY(5deg);
+	}80% { -o-transform:rotateY(-20deg);}
+	100%{-o-transform:rotateY(0deg);}
+}@keyframes myflip2 {
+	0% {
+		opacity: 0;transform:rotateY(-70deg);
+	}50%{
+		opacity: 1;transform:rotateY(5deg);
+	}80% {transform:rotateY(-20deg);}
+	100% {transform:rotateY(0deg);}
+}
+
+@-webkit-keyframes ampt-fadeIn {
+  0% {
+    opacity: 0;
+  } 
+
+  25% {
+    opacity: 0.10;
+  }
+
+  50% {
+    opacity: 0.25;
+  }
+
+  75% {
+    opacity: 0.5;
+  }
+
+  100% {
+    opacity: 0.75;
+  }
+}
+
+@keyframes ampt-fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  25% {
+    opacity: 0.10;
+  }
+
+  50% {
+    opacity: 0.25;
+  }
+
+  75% {
+    opacity: 0.5;
+  }
+
+  100% {
+    opacity: 0.75;
+  }
+}
+
+.ampt-fadeIn {
+  -webkit-animation-name: ampt-fadeIn;
+  animation-name: ampt-fadeIn;
+}
