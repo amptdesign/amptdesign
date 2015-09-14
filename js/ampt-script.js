@@ -28,7 +28,7 @@ $(document).ready(function() {
         $(target).stop(true, true).fadeIn({ duration: time, queue: queue }).addClass('my-flip');
   }
 
-    $( ".learn-1" ).click(function(e) {
+    $(".learn-1").click(function(e) {
 
             e.preventDefault();
             $("#carousel").fadeOut(800);
@@ -264,13 +264,14 @@ $(document).ready(function() {
   $("#jin_b").click(function() { if (team_wobbling != true) { resetPics(); } });  
   $("#luci_b").click(function() { if (team_wobbling != true) { resetPics(); } });
 
-  $( ".contact" ).click(function(e) {
+  $(".contact").click(function(e) {
 
     e.preventDefault();
     $("#carousel").hide();
-    $(".our-services").hide(); 
-    $(".our-services-2").hide(); 
-    $(".our-team").hide(); 
+    $(".inner-webbing").hide();
+    // $(".our-services").hide(); 
+    // $(".our-services-2").hide(); 
+    // $(".our-team").hide(); 
     $("#contact-us").show().addClass("enter-left-bounce");
     $("#subject").val($(this).data("target"));
     scrollDown(120, 1200);
@@ -279,12 +280,19 @@ $(document).ready(function() {
 
   });
 
-  $( "#email-cancel" ).click(function() {
+  $("#email-cancel").click(function(e) {
+        
+        e.preventDefault();
+        $(".our-services-2").hide();
+        $(".color-circle").hide(); 
         $("#contact-us").hide("fade", { direction: "right"}, 100);
-        scrollDown(0,1000);
+        $("#carousel").fadeIn().show(); 
+        $(".inner-webbing").fadeIn().show();
         $(".our-services").show(); 
         $(".our-team").show();
-        $(".carousel").show(); 
+        scrollDown(800,1000);
+
+
   });
 
 // var notify = function(message) {

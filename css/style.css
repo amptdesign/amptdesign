@@ -58,6 +58,7 @@ a.sad:hover {
     height:2850px;
     margin: 0 auto;
     overflow: hidden;
+    vertical-align: top;
 }
 
 .inner-webbing {

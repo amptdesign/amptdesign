@@ -58,7 +58,7 @@ header('Location: http://mobile.amptdesign.com');
               <div class="carousel-inner" role="listbox">
 
                 <div class="item active"><a href="#" class="learn-1"><img src="img/slide11.png" alt="We build Custom Beautiful Websites"></a></div>
-                <div class="item"><a href="#" id="learn-12"><img src="img/slide22.png" alt="Let us help your business grow it's online presence!"></a></div>
+                <div class="item"><a href="#" class="contact" data-target="CREATE A STRONG ONLINE PRESENCE"><img src="img/slide22.png" alt="Let us help your business grow it's online presence!"></a></div>
 
               </div>
 
@@ -205,7 +205,6 @@ header('Location: http://mobile.amptdesign.com');
   <script src="js/bootstrap.min.js"></script>
   <script src="js/sweet-justice.min.js"></script>
   <script src="js/jquery.transit.js" type="text/javascript"></script>
-  <script src="js/jquery.slicebox.js" type="text/javascript"></script>
   <script src="js/waypoints.min.js" type="text/javascript"></script>
   <script src="js/jstween-1.1.min.js" type="text/javascript"></script>
   <script src="js/ampt-script.js" type="text/javascript"></script>
