@@ -1,19 +1,13 @@
 
-* {
-    font-family: "Lato" Helvetica, Arial, sans-serif;
-}
+* { font-family: "Lato", Helvetica, Arial, sans-serif; }
 
 html {
     position: relative;
-
     min-height: 100%;
 }
 
 body {
-    margin-bottom: 40px; /* FOOT
-
-      ER OFFSET */
-
+    margin-bottom: 40px; /* FOOTER OFFSET */
     background: url(../img/bg_sun.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
        -moz-background-size: cover;
@@ -28,8 +22,7 @@ body {
     height: 40px;
     background-color: #f5f5f5;
 }
-a,
-a:visited {
+a,a:visited {
     text-decoration: none;
     color: #f00;
 }
@@ -62,7 +55,6 @@ a.sad:hover {
 }
 
 .inner-webbing {
-    /* border:1px solid red; */
     margin:0;
     padding:0;
     text-align:center;
@@ -80,12 +72,10 @@ a.sad:hover {
     display: inline-block;
     margin: 45px 0 0 515px;
     opacity: .35;
-    /*z-index: -1;*/
 }
 
 #yrobo:hover {
     z-index: 1000;
-
     opacity: .85;
 }
 
@@ -99,11 +89,7 @@ a.sad:hover {
     margin: 0 auto;
 }
 
-/* 
-
-  CUTTING - EDGE WEB DESIGN 
-
-*/
+/* CUTTING - EDGE WEB DESIGN */
 
 #subheader {
     position: relative;
@@ -111,7 +97,7 @@ a.sad:hover {
     display: block;
     padding: 0 0 0 10px;
     margin: 18.5% 0 3% 46.5%;
-    font-family: "Lato" Helvetica, Arial, sans-serif;
+    /*font-family: "Lato" Helvetica, Arial, sans-serif;*/
     font-size: 22.48px;
     font-weight: 300;
     white-space: nowrap;

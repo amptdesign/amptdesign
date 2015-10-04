@@ -23,14 +23,7 @@ header('Location: http://mobile.amptdesign.com');
   <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
   <link href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css" rel="stylesheet">
   <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
-  <script>  
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-    ga('create', 'UA-50605466-1', 'amptdesign.com');
-    ga('send', 'pageview');
-  </script>  
+ 
   </head>
 <body>
 
@@ -197,7 +190,16 @@ header('Location: http://mobile.amptdesign.com');
 
   </div>  <!-- END SPIDERWEBS -->
 
-  <div id="footer"><p class="text-muted credit text-center"> &nbsp;  &nbsp; Ampt Design <a class="text-muted" href="#" data-toggle="tooltip" title="" data-original-title="Ahead of the Curve!">2015</a> - Expanding your mind through superior Design!</p></div>
+  <div id="footer"><p class="text-muted credit text-center"> &nbsp;  &nbsp; Ampt Design <a class="text-muted" href="#" data-toggle="tooltip" title="" data-original-title="Ahead of the Curve!">2016</a> - Expanding your mind through superior Design!</p></div>
+
+    <script>  
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-50605466-1', 'amptdesign.com');
+    ga('send', 'pageview');
+  </script> 
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>       
   <script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script> 
