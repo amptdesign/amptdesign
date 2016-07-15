@@ -43,20 +43,21 @@ $(document).ready(function() {
 
                           unveil(".web2", 3000, false);
 
-                          $('.color-circle').tween({ 
-                              opacity: { start: 0,   stop: 50, time: 2, duration: 5, effect:'easeInOut' },
-                              rotate:  { start: 451, stop: 339,time: 2, duration: 5, effect:'easeInOut' }
-                           }); 
+                          // $('.color-circle').tween({ 
+                          //     opacity: { start: 0,   stop: 50, time: 2, duration: 5, effect:'easeInOut' },
+                          //     rotate:  { start: 451, stop: 339,time: 2, duration: 5, effect:'easeInOut' }
+                          //  }); 
 
                           $.play(); setTimeout(act3, 800);
             }
 
             var act3 = function () {
 
-                          $(".hottie-rocket").transition({
-                                opacity: 1, x:'-2400px', duration: 2050, easing: 'easeInOutBack',
-                                complete: function() { setTimeout(act4, 2050); }
-                          });
+                          // $(".hottie-rocket").transition({
+                          //       opacity: 1, x:'-2400px', duration: 2050, easing: 'easeInOutBack',
+                          //       complete: function() { setTimeout(act4, 2050); }
+                          // });
+                          setTimeout(act4, 2050);
             }
 
             var act4 = function () { unveil(".web3", 4800, false);          setTimeout(act5, 3000); }

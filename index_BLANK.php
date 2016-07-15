@@ -61,11 +61,16 @@ header('Location: http://mobile.amptdesign.com');
 
             <div class="our-services">
                     <span class="sect_header">OUR SERVICES</span>
-                    <p class="sweet-justice"><span class="bold">WE CREATE BEAUTIFUL AND ORIGINAL WEBSITES</span> PERFECTLY TAILORED TO SUITE YOUR NEEDS AND MATCH YOUR UNIQUE TASTES.<br><br>
+                    <p class="sweet-justice"><span class="bold"><br><br><br><br><br><br>
+
+                    <!-- WE CREATE BEAUTIFUL AND ORIGINAL WEBSITES</span> PERFECTLY TAILORED TO SUITE YOUR NEEDS AND MATCH YOUR UNIQUE TASTES.<br><br> -->
                     <a href="#" class="btn learn-1"> LEARN MORE <i class="glyphicon glyphicon-chevron-right" style="font-size:13px;margin-right:5px;margin-left:3px;"></i></a></p><br>
                     <p class="sweet-justice">
-                    <span class="bold">Is your website loading too slow?</span>
-                    Let us speed up your load time with optimized scripts, compressed images, AND BETTER SERVER CONFIGURATION.<br><br>
+                    <span class="bold"><br><br><br><br><br><br>
+
+
+                  <!--   Is your website loading too slow?</span>
+                    Let us speed up your load time with optimized scripts, compressed images, AND BETTER SERVER CONFIGURATION.<br><br> -->
                      <a href="#" class="btn contact" data-target="IMPROVE WEBSITE PERFORMANCE"> CONTACT US <i class="glyphicon glyphicon-chevron-right" style="font-size:13px;margin-right:5px;margin-left:3px;"></i></a></p> <br><br><br><br><br><br><br><br><br><br><br>
 
               <div class="test" style="margin-top:2px;"><span class="sect_header">HAPPY</span><p class="sweet-justice">"WE SIGNED UP FOR A NEW WEBSITE, BUT WHAT WE GOT WAS SOO MUCH MORE!  THESE GUYS REALLY ARE EXPERTS AT THEIR CRAFT!  MY WIFE AND I HIGHLY RECOMMEND AMPT DESIGN FOR THEIR ATTENTION TO DETAIL AND THEIR PROFESSIONALISM."<br>
@@ -100,19 +105,32 @@ header('Location: http://mobile.amptdesign.com');
 
                 <a href="#" id="win" class="contact" data-target="MAKE ME AN AWESOME WEBSITE!"> <i class="fa fa-rocket" style="font-size:16px;margin-right:5px;"></i> Let's get Started <i class="fa fa-rocket" style="font-size:16px;margin-left:5px;"></i> </a>
                 <a href="#" id="maybe-later" class="sad"> Maybe Later </a>
-                <!-- <div class="color-circle"> &nbsp; </div> -->
-                <!-- <div class="hottie-rocket"> &nbsp; </div> -->
+                <div class="color-circle"> &nbsp; </div>
+                <div class="hottie-rocket"> &nbsp; </div>
             </div>    
 
             <div class="our-team">
                 <span class="sect_header">OUR TEAM</span>
+
+                 <p class="sweet-justice"><span class="bold"><br><br><br><br><br><br>
+
+                    <!-- WE CREATE BEAUTIFUL AND ORIGINAL WEBSITES</span> PERFECTLY TAILORED TO SUITE YOUR NEEDS AND MATCH YOUR UNIQUE TASTES.<br><br> -->
+                    <a href="#" class="btn learn-1"> LEARN MORE <i class="glyphicon glyphicon-chevron-right" style="font-size:13px;margin-right:5px;margin-left:3px;"></i></a></p><br>
+                    <p class="sweet-justice">
+                    <span class="bold"><br><br><br><br><br><br>
+
+
+                  <!--   Is your website loading too slow?</span>
+                    Let us speed up your load time with optimized scripts, compressed images, AND BETTER SERVER CONFIGURATION.<br><br> -->
+                     <a href="#" class="btn contact" data-target="IMPROVE WEBSITE PERFORMANCE"> CONTACT US <i class="glyphicon glyphicon-chevron-right" style="font-size:13px;margin-right:5px;margin-left:3px;"></i></a></p> <br><br><br><br><br><br><br><br><br><br><br>
+
                 
-                <p class="sweet-justice">
+                <!-- <p class="sweet-justice">
                 <b>We are a Tight-knit group of technology</b> enthusiasts, digital artists, and innovative programmers with a special love for WordPress! <br><br>
-                <a href="#" class="btn" id="meet-team"> MEET OUR TEAM <i class="glyphicon glyphicon-chevron-right" style="font-size:13px;margin-right:5px;margin-left:3px;"></i></a></p>
+                <a href="#" class="btn" id="meet-team"> MEET OUR TEAM <i class="glyphicon glyphicon-chevron-right" style="font-size:13px;margin-right:5px;margin-left:3px;"></i></a></p> -->
                 
 
-                <div class="text-center">
+                <!-- <div class="text-center">
                     <img id="me_t" src="img/me_t.jpg" class="team">
                     <img id="cassie_t" src="img/cassie_t.jpg" class="team">
                     <img id="jin_t" src="img/jin_t.jpg" class="team">
@@ -125,9 +143,9 @@ header('Location: http://mobile.amptdesign.com');
 
                     <a href="#" id="surprise-click"><i class="fa fa-arrow-up" style="font-size:16px;margin-right:5px;"></i> Try clicking a picture &nbsp;<i class="fa fa-arrow-up" style="font-size:16px;margin-right:5px;"></i></a>
                     <a href="#" id="after-surprise"><i class="fa fa-star" style="font-size:16px;margin-right:5px;"></i> Thank you for meeting our team <i class="fa fa-star" style="font-size:16px;margin-right:5px;"></i></a>
-                </div><br><br><br>
+                </div><br><br><br> -->
 
-                <span class="sect_header">OUR PASSION</span>
+                <!-- <span class="sect_header">OUR PASSION</span>
 
                 <p class="sweet-justice"><b>WE ARE PASSIONATE ABOUT DESIGN AND WEBSITE DEVELOPMENT</b> AND WOULD LOVE TO HELP YOU WITH YOUR ONLINE NEEDS!<br><br>
 
@@ -151,7 +169,7 @@ header('Location: http://mobile.amptdesign.com');
                 <p class="sweet-justice">
                 And that leads us to your second option; you hire a professional (a’hem)!  You make sure to check out the quality of their work by looking at their portfolio.  And you ask them some questions to make sure they are knowledgeable in the area you need help with. And then you put your trust in their expertise to help take you and your business to the next level!  
                 <a href="#" class="contact" data-target="CONSULTATION REQUEST">  <i class="fa fa-rocket" style="font-size:16px;margin-left:15px;"></i> CONTACT US FOR A FREE CONSULTATION! <i class="fa fa-rocket" style="font-size:16px;margin-left:5px;"></i></a></p>
-                </div><br><br><br>
+                </div><br><br><br> -->
 
                 <span class="sect_header">OUR PORTFOLIO</span>
                 <!-- <p class="text-center">&nbsp; Browse our Portfolio of Recent Clients:</p> -->

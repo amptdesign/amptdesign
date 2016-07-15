@@ -1,15 +1,19 @@
-* { font-family: "Lato", Helvetica, Arial, sans-serif; }
+* {
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+}
 html {
     position: relative;
     min-height: 100%;
 }
 body {
-    margin-bottom: 40px; /* FOOTER OFFSET */
+    margin-bottom: 40px;
+    /* FOOTER OFFSET */
+    
     background: url(../img/bg_sun.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
-       -moz-background-size: cover;
-         -o-background-size: cover;
-            background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 #footer {
     position: absolute;
@@ -18,7 +22,8 @@ body {
     height: 40px;
     background-color: #f5f5f5;
 }
-a,a:visited {
+a,
+a:visited {
     text-decoration: none;
     color: #f00;
 }
@@ -26,7 +31,8 @@ a:hover {
     text-decoration: none;
     color: #16a085
 }
-a.sad, a.sad:visited {
+a.sad,
+a.sad:visited {
     text-decoration: none;
     color: #000;
 }
@@ -35,26 +41,28 @@ a.sad:hover {
     color: #999;
 }
 /* SPIDERWEBS WRAPS THE MEAT OF THE SITE AND HOLDS IT TOGETHER */
+
 .spiderwebs {
     position: relative;
     display: block;
     width: 960px;
     min-height: 2850px;
-    height:2850px;
+    height: 2850px;
     margin: 0 auto;
     overflow: hidden;
     vertical-align: top;
 }
 .inner-webbing {
-    margin:0;
-    padding:0;
-    text-align:center;
-    display:inline-block;
-    position:relative;
-    width:100%;
-    height:100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height: 100%;
 }
 /*  YELLOW ROBOT  */
+
 #yrobo {
     position: absolute;
     z-index: 900;
@@ -75,6 +83,7 @@ a.sad:hover {
     margin: 0 auto;
 }
 /* CUTTING - EDGE WEB DESIGN */
+
 #subheader {
     position: relative;
     z-index: 1001;
@@ -91,6 +100,7 @@ a.sad:hover {
     text-align: center;
 }
 /* UNIVERSAL */
+
 .sect_header {
     display: block;
     margin: 0 0 16px 0;
@@ -102,6 +112,7 @@ a.sad:hover {
     background-color: #475662;
 }
 /* OUR SERVICES */
+
 .our-services {
     position: relative;
     display: inline-block;
@@ -112,17 +123,23 @@ a.sad:hover {
     font-size: 13pt;
     text-align: center;
     /*word-spacing: -1px;*/
+    
     letter-spacing: normal;
     text-transform: uppercase;
-    background-color: rgba(255,255,255,.3);
+    background-color: rgba(255, 255, 255, .3);
     /* border:1px dotted green; */
     /* clear: both; */
+    
     vertical-align: top;
 }
 /* 
+
   << ANIMATION >>
+
   APPEARS WHEN "GET THE FACTS" IS CLICKED 
+
 */
+
 .our-services-2,
 .our-services-3 {
     display: none;
@@ -131,6 +148,7 @@ a.sad:hover {
     font-size: 11pt;
     letter-spacing: normal;
     /*word-spacing: -1px;*/
+    
     text-transform: uppercase;
 }
 .our-services-2 {
@@ -140,7 +158,13 @@ a.sad:hover {
 .our-services-3 {
     position: relative;
 }
-.web2, .web3, .web4, #win, #maybe-later { display: none; }
+.web2,
+.web3,
+.web4,
+#win,
+#maybe-later {
+    display: none;
+}
 #win {
     padding: 20px 5px;
     margin: 2px;
@@ -149,35 +173,42 @@ a.sad:hover {
     color: red;
     border: 1px solid red;
     border-radius: 2px;
+    /*background-color: #338faf;*/
+    
     z-index: 1;
 }
 #win:hover {
     text-decoration: none;
     background-color: red;
-    color:#fff;
+    color: #fff;
     /*box-shadow:0 0 3px 3px rgba(255,255,204,.6); */
 }
-.team-big { padding: 20px 0 14px 0; }
-.team { margin: 32px 5px -11px 5px; }
+.team-big {
+    padding: 20px 0 14px 0;
+}
+.team {
+    margin: 32px 5px -11px 5px;
+}
 .web1 {
     border-radius: 4px;
-    background-color: rgba(255,255,255,.2);
+    background-color: rgba(255, 255, 255, .2);
 }
 .web2 {
     border-radius: 4px;
-    background-color: rgba(255,255,255,.2);
+    background-color: rgba(255, 255, 255, .2);
 }
 .web3 {
     border-radius: 4px;
-    background-color: rgba(255,255,255,.2);
+    background-color: rgba(255, 255, 255, .2);
 }
 .web4 {
     border-radius: 4px;
-    background-color: rgba(255,255,255,.3);
+    background-color: rgba(255, 255, 255, .3);
     z-index: 100;
 }
 /* PREVENTS ANIMATION FLICKERING */
 /*#color-circle { -webkit-backface-visibility: hidden; }*/
+
 .color-circle {
     position: absolute;
     top: 477px;
@@ -204,9 +235,17 @@ a.sad:hover {
     background-image: url("../img/hottie-rocket.png");
 }
 /* OUR TEAM */
-.our-team p { word-spacing: normal; }
-.team:hover { box-shadow: 0 0 55px 5px #fc6; }
-.team-big, #after-surprise { display: none; }
+
+.our-team p {
+    word-spacing: normal;
+}
+.team:hover {
+    box-shadow: 0 0 55px 5px #fc6;
+}
+.team-big,
+#after-surprise {
+    display: none;
+}
 .our-team {
     position: relative;
     display: inline-block;
@@ -218,10 +257,12 @@ a.sad:hover {
     letter-spacing: normal;
     word-spacing: -1px;
     text-transform: uppercase;
-    background-color: rgba(255,255,255,.3);
+    background-color: rgba(255, 255, 255, .3);
     vertical-align: top;
 }
-.how-we-can-help, .how-we-can-help-2, .how-we-can-help-3 {
+.how-we-can-help,
+.how-we-can-help-2,
+.how-we-can-help-3 {
     position: relative;
     display: none;
     width: 378px;
@@ -231,7 +272,9 @@ a.sad:hover {
     word-spacing: -1px;
     text-transform: uppercase;
 }
-.how-we-can-help { height: 290px; }
+.how-we-can-help {
+    height: 290px;
+}
 .cthumb {
     width: 90px;
     height: 90px;
@@ -240,7 +283,9 @@ a.sad:hover {
     border: 1px solid #333;
     box-shadow: 2px 2px 3px #888;
 }
-.cthumb:hover { border: 1px solid #f00; }
+.cthumb:hover {
+    border: 1px solid #f00;
+}
 .mobi {
     padding: -9px -9px -7px -76px;
     margin: -12px 3px 1px 3px;
@@ -296,7 +341,7 @@ textarea {
     display: none;
     padding: 19px 4px;
     border: 1px solid #000;
-    background-color: rgba(255,255,255,0.2);
+    background-color: rgba(255, 255, 255, 0.2);
     margin: 2px;
     margin-top: -15px;
     z-index: 1;
@@ -304,7 +349,7 @@ textarea {
 }
 #maybe-later:hover {
     background-color: black;
-    color:white;
+    color: white;
 }
 #footer {
     height: 40px;
@@ -335,19 +380,24 @@ textarea {
 .carousel-indicators .active {
     background-color: #099;
 }
-.bold {font-weight: 700;}
-.royalblue {background-color: royalblue;}
- a.btn:link, a.btn:visited {
-    border:1px solid red;
-    margin-top:-15px;
-    padding:10px;
+.bold {
+    font-weight: 700;
+}
+.royalblue {
+    background-color: royalblue;
+}
+a.btn:link,
+a.btn:visited {
+    border: 1px solid red;
+    margin-top: -15px;
+    padding: 10px;
     margin-left: 2px;
     border-radius: 0;
-    color:red;
+    color: red;
 }
 a.btn:hover {
-    border:1px solid #16a085;
-    color:#16a085;
+    border: 1px solid #16a085;
+    color: #16a085;
 }
 #clients {
     margin: 0;
@@ -359,6 +409,7 @@ a.btn:hover {
     left: 52% !important;
 }
 /* FLUFF */
+
 .a-line {
     width: 99%;
     margin-top: 10%;
