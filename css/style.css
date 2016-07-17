@@ -348,6 +348,7 @@ textarea {
 a.btn:hover {
     border:1px solid #16a085;
     color:#16a085;
+    background-color: rgba(22,160,133,0.10);
 }
 #clients {
     margin: 0;
